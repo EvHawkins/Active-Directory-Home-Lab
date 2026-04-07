@@ -5,8 +5,8 @@
 Begin the intial setup of Windowns Server 2025, rename the server, enable remote management, and install active directory
 
 Table of Contents
-- [Step 1](#step-1-rename-server)
-- [Step 2](#step-2-install-active-directory)
+- [Step 1: Rename Server](#step-1-rename-server)
+- [Step 2: Install Active Directory](#step-2-install-active-directory)
 
 ## Step 1: Rename Server
 
