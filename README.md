@@ -1,6 +1,6 @@
 # Active Diretory Lab
 
-This repsoistory contains hands-on Active Directory labs build on virtual machines using VMware Workstation
+This repsoistory contains hands-on Active Directory labs on Windows Server 2025 built on virtual machines using VMware Workstation
 
 ## Skills Demonstrated
 
