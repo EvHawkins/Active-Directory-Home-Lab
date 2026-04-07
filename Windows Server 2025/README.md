@@ -7,6 +7,7 @@ Begin the intial setup of Windowns Server 2025, rename the server, enable remote
 ## Table of Contents
 - [Step 1: Rename Server](#step-1-rename-server)
 - [Step 2: Enable Remote Management](#step-2-enable-remote-management)
+- [Step 3: Install Active Directory](#step-3-install-active-directory)
 
 ## Step 1: Rename Server
 
@@ -36,7 +37,17 @@ Windows typically assigns the computer a long and complicated device name. This 
 <img width="679" height="361" alt="Rename 6" src="https://github.com/user-attachments/assets/42abea66-edc1-41b7-a2f1-659f56aa30a1" />
 
 ## Step 2: Enable Remote Management
+- Open up Server Manager and click "Local Server"
+- From here make sure remote management is enabled
 
+<img width="808" height="458" alt="AD Setup 3 copy" src="https://github.com/user-attachments/assets/5699303e-ebcd-434b-96ce-d4bc93ea7125" />
+
+<img width="642" height="328" alt="AD Setup 2" src="https://github.com/user-attachments/assets/2f6f6c3a-b91e-4620-8696-8a0a84b8e3fa" />
+
+## Step 3: Install Active Directory
+
+- yup
+  
   
 
 
