@@ -4,7 +4,7 @@ This repsoistory contains hands-on Active Directory labs on Windows Server 2025 
 
 ## Skills Demonstrated
 
-- Intial Windows Server Set Up
+- Windows Server Set Up
 - Active Directory Domain Services
 
 ## Tools Used
