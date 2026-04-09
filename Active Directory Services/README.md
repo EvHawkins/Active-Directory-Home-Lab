@@ -1,16 +1,16 @@
 # Active Directory Services
 
 ## Objective
-- Create a Windows 11 client
-- Add the client to the domain
 - Create Organizational Units(OU's) and users
-
+- Create a Domain Admin
+- Create a Windows 11 client 
+- Add the client to the domain
+  
 ## Table of Contents
 - [Step 1: Set Up Static IP Address and DNS on the Domain Controller](#step-1-set-up-static-ip-address-and-dns-on-the-domain-controller)
 - [Step 2: Create OU's and Groups](#step-2-create-ous-and-groups)
 - [Step 3: Create a Domain Admin](#step-3-create-a-domain-admin)
-
-
+- [Step 4: Add Windows 11 Client to Domain](#step-4-add-windows-11-client-to-domain)
 
 ## Step 1: Set Up Static IP Address and DNS on the Domain Controller
 - Once you've logged into your server go to the command prompt and enter "ipconfig". Here you'll see the IP address assigned to the server once it was created. This is the address that we will assign as the static IP address for the server.
@@ -25,7 +25,6 @@
 ## Step 2: Create OU's and Groups
 - Open up Active Directory Users and Computers. Here we'll be able to see our domain "MyHomeLab.local" on the lefthand side.
 <img width="750" height="524" alt="A1" src="https://github.com/user-attachments/assets/1e25aa49-b603-4bb3-8ac7-19d5bd871069" />
-
 
 - Now we will create Organizational Units otherwise known as OU's. We'll start by right clicking out domain, selecting New, then selecting Organizational Unit.
 <img width="751" height="516" alt="A3" src="https://github.com/user-attachments/assets/fc798380-6283-4cce-8788-0bccce22bdca" />
@@ -62,6 +61,12 @@
 - Lastly we'll follow the same steps as above and create a new user in the HR department that we'll use as our Windows 11 client.
 
 <img width="750" height="518" alt="A15" src="https://github.com/user-attachments/assets/8fd0b390-86bd-46bc-9d38-ed7c313a9a61" />
+
+## Step 4: Add Windows 11 Client to Domain
+- Login to your client computer using the admin account we created. Go to Settings > Network & Internet > Ethernet. Scroll down to "DNS server assignment" and click edit.
+<img width="1012" height="642" alt="C1" src="https://github.com/user-attachments/assets/3f2c511c-f37b-409a-aa7b-5f4a8c44a744" />
+
+- 
 
 
 
