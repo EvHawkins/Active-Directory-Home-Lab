@@ -1,4 +1,4 @@
-# Active Diretory Lab
+# Active Directory Lab
 
 This repsoistory contains hands-on Active Directory labs on Windows Server 2025 built on virtual machines using VMware Workstation
 
