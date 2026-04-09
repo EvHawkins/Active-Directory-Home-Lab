@@ -70,7 +70,10 @@ Windows typically assigns the computer a long and complicated device name. This 
 - Click through DNS options, Additional Options, and Review options. Nothing here needs to be changed, just make sure everything is correct. You will now find yourself at the prerequisite check menu. You may have to press "Previous" a few times while the check is being done. Once you see a green check mark, you're ready to click "Install"
 <img width="757" height="554" alt="AD setup 15" src="https://github.com/user-attachments/assets/f48fcaec-f019-4646-ad6f-a1aeeca8a086" />
 
-- Once the install is done you can go to Control Panel > System and Security > Windows Tools and make sure everything was installed correctly
+- Your system will reboot and at the login screen you can now see your domain name at login
+<img width="613" height="509" alt="AD1 copy" src="https://github.com/user-attachments/assets/4ec68a8c-bda9-408e-9ab9-bc775d4efd92" />
+
+- After you login go to Control Panel > System and Security > Windows Tools and make sure everything was installed correctly 
 <img width="1118" height="584" alt="AD setup 16" src="https://github.com/user-attachments/assets/d942f5fd-32ee-483c-9716-25a7028cc514" />
 
 
