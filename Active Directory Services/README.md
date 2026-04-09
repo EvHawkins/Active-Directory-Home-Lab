@@ -2,12 +2,13 @@
 
 ## Objective
 - Create a Windows 11 client
-- Join the client to the domain
+- Add the client to the domain
 - Create Organizational Units(OU's) and users
 
 ## Table of Contents
 - [Step 1: Set Up Static IP Address and DNS on the Domain Controller](#step-1-set-up-static-ip-address-and-dns-on-the-domain-controller)
 - [Step 2: Create OU's and Groups](#step-2-create-ous-and-groups)
+- [Step 3: Create a Domain Admin](#step-3-create-a-domain-admin)
 
 
 
@@ -35,4 +36,32 @@
 - Next we'll make a few more OU's inside "USA". These will represent different departments and computers.
 <img width="747" height="521" alt="A6" src="https://github.com/user-attachments/assets/8c879ede-42e0-471a-9cd4-a7cacd5f8702" />
 
-- 
+## Step 3: Create a Domain Admin
+- We'll start by right clicking our department (in this case it will be IT), selecting new, then selecting user.
+- The reason for making a Domain Admin is that they have the power to add new users to our domain.
+<img width="456" height="316" alt="A7" src="https://github.com/user-attachments/assets/54e18b0e-4446-4426-9bc4-29717e0249e1" />
+
+- Fill in the users information as well as their account/logon name.
+<img width="432" height="374" alt="A8" src="https://github.com/user-attachments/assets/07acafb6-66ca-43e4-87fb-541ca5c36a7a" />
+
+- Create a password for the user. We'll set this password to never expire.
+<img width="432" height="369" alt="A9" src="https://github.com/user-attachments/assets/4e521122-fc70-4703-acf4-36c2220f71b4" />
+
+- You can now see that a new user was created in the IT department.
+<img width="748" height="520" alt="A10" src="https://github.com/user-attachments/assets/7efe395d-98ea-4ca7-8f37-2ad92d763267" />
+
+- From here we'll right click the the user and go to "Properties". Inside "Properties" select the "Member Of" tab and click "Add"
+<img width="406" height="523" alt="A12" src="https://github.com/user-attachments/assets/24f048ef-3674-47bd-b2d9-9ce8effb849f" />
+
+- In the "Enter the object names..." box, type in "Domain Admins" and click "Check Names". This should underline "Domain Admins" signaling that we've found the correct group name. Now click ok.
+<img width="454" height="244" alt="A13" src="https://github.com/user-attachments/assets/54c0ea06-bbf6-4efb-be07-75e14e5eaea0" />
+
+- We can now confirm that the user has been added to the Domain Admins group. Click "Apply" followed by "Ok".
+<img width="406" height="529" alt="A14" src="https://github.com/user-attachments/assets/6619c4e8-2105-4361-8d2b-8a0f55c57dc7" />
+
+- Lastly we'll follow the same steps as above and create a new user in the HR department that we'll use as our Windows 11 client.
+
+<img width="750" height="518" alt="A15" src="https://github.com/user-attachments/assets/8fd0b390-86bd-46bc-9d38-ed7c313a9a61" />
+
+
+
