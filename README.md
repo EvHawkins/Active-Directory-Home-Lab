@@ -9,7 +9,7 @@ This repsoistory contains hands-on Active Directory labs on Windows Server 2025 
 
 ## Tools Used
 
-- Virtual Machines
+- VMware Workstation
 - Windows Server 2025
 - Windows 11
 - Active Directory
