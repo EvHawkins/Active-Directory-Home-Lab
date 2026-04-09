@@ -22,3 +22,17 @@
 <img width="1014" height="785" alt="AD4" src="https://github.com/user-attachments/assets/6a76c165-35de-43e4-afe3-219e1f822386" />
 
 ## Step 2: Create OU's and Groups
+- Open up Active Directory Users and Computers. Here we'll be able to see our domain "MyHomeLab.local" on the lefthand side.
+<img width="750" height="524" alt="A1" src="https://github.com/user-attachments/assets/1e25aa49-b603-4bb3-8ac7-19d5bd871069" />
+
+
+- Now we will create Organizational Units otherwise known as OU's. We'll start by right clicking out domain, selecting New, then selecting Organizational Unit.
+<img width="751" height="516" alt="A3" src="https://github.com/user-attachments/assets/fc798380-6283-4cce-8788-0bccce22bdca" />
+
+- Now we can name our OU. I'll make a "USA office" for this example
+<img width="430" height="374" alt="A4" src="https://github.com/user-attachments/assets/66175ec0-3748-4559-a160-62d28e3fde2d" />
+
+- Next we'll make a few more OU's inside "USA". These will represent different departments and computers.
+<img width="747" height="521" alt="A6" src="https://github.com/user-attachments/assets/8c879ede-42e0-471a-9cd4-a7cacd5f8702" />
+
+- 
