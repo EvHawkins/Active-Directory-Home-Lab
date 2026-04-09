@@ -52,13 +52,13 @@ Windows typically assigns the computer a long and complicated device name. This 
 - Review the information and make sure all steps have been completed, then click "Next"
 <img width="780" height="553" alt="AD Setup 4" src="https://github.com/user-attachments/assets/8d68ae4a-d7ab-4002-88cc-70d86bd3c5ba" />
 
-- Under Roles find "Active Directory Domain Services", select it, and the click "Add Features"
+- Under "Roles" find "Active Directory Domain Services" select it and the click "Add Features"
 <img width="764" height="431" alt="AD Setup 6" src="https://github.com/user-attachments/assets/41b9abdd-1ad0-4edf-a83f-3093c19971c6" />
 
-- Now the intsallation process will begin but it's very important not to close the window after the install is done
+- Now the intsallation process will begin but it's very important not to close the intallation wizard after the install is done
 <img width="781" height="555" alt="AD Setup 7" src="https://github.com/user-attachments/assets/e409037a-11b9-4e65-91c0-53baf69463bf" />
 
-- Once the installation is done we will promote the serve into a domain controller. This is why it is important not to close the installation wizard after the install.
+- Once the installation is done we will promote the server into a domain controller. This is why it is important not to close the installation wizard after the install.
 <img width="592" height="362" alt="AD Setup 8" src="https://github.com/user-attachments/assets/2c8ef466-ea5e-4a9f-887c-1809ccc84cdb" />
 
 - Click on "Add a new forest" and select a domin name for your server
