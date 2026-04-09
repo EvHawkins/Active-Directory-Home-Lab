@@ -2,7 +2,10 @@
 
 ## Objectives
 
-Setup of Windowns Server 2025, rename the server, enable remote management, and install active directory
+- Setup Windowns Server 2025
+- Rename the server
+- Enable remote management
+- Install Active Directory
 
 ## Table of Contents
 - [Step 1: Rename Server](#step-1-rename-server)
