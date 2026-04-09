@@ -29,7 +29,7 @@
 - Now we will create Organizational Units otherwise known as OU's. We'll start by right clicking out domain, selecting New, then selecting Organizational Unit.
 <img width="751" height="516" alt="A3" src="https://github.com/user-attachments/assets/fc798380-6283-4cce-8788-0bccce22bdca" />
 
-- Now we can name our OU. I'll make a "USA office" for this example
+- Now we can name our OU. I'll make a "USA office" for this example.
 <img width="430" height="374" alt="A4" src="https://github.com/user-attachments/assets/66175ec0-3748-4559-a160-62d28e3fde2d" />
 
 - Next we'll make a few more OU's inside "USA". These will represent different departments and computers.
@@ -49,7 +49,7 @@
 - You can now see that a new user was created in the IT department.
 <img width="748" height="520" alt="A10" src="https://github.com/user-attachments/assets/7efe395d-98ea-4ca7-8f37-2ad92d763267" />
 
-- From here we'll right click the the user and go to "Properties". Inside "Properties" select the "Member Of" tab and click "Add"
+- From here we'll right click the the user and go to "Properties". Inside "Properties" select the "Member Of" tab and click "Add".
 <img width="406" height="523" alt="A12" src="https://github.com/user-attachments/assets/24f048ef-3674-47bd-b2d9-9ce8effb849f" />
 
 - In the "Enter the object names..." box, type in "Domain Admins" and click "Check Names". This should underline "Domain Admins" signaling that we've found the correct group name. Now click ok.
@@ -63,10 +63,49 @@
 <img width="750" height="518" alt="A15" src="https://github.com/user-attachments/assets/8fd0b390-86bd-46bc-9d38-ed7c313a9a61" />
 
 ## Step 4: Add Windows 11 Client to Domain
-- Login to your client computer using the admin account we created. Go to Settings > Network & Internet > Ethernet. Scroll down to "DNS server assignment" and click edit.
-<img width="1012" height="642" alt="C1" src="https://github.com/user-attachments/assets/3f2c511c-f37b-409a-aa7b-5f4a8c44a744" />
 
-- 
+- Login to your client computer using the admin account we created. Go to Settings > Network & Internet > Ethernet. Scroll down to "DNS server assignment" and click edit.
+
+<img width="784" height="616" alt="C1 copy" src="https://github.com/user-attachments/assets/bda6a727-e9e5-4050-884f-72900c9282b1" />
+
+- Now select "Manual"
+<img width="495" height="213" alt="C2" src="https://github.com/user-attachments/assets/33eb83cf-1562-46d7-9029-7cd539506c23" />
+
+- Toggle on IPv4 and under "Preferred DNS" we are going to put in the IP address of our windows server.
+<img width="493" height="681" alt="C4" src="https://github.com/user-attachments/assets/78df0e65-4c6d-45b8-9fb9-77fd8c6e5606" />
+
+- To verify that things are working correctly we can ping our windows server from the commandpromt.
+<img width="567" height="405" alt="C5" src="https://github.com/user-attachments/assets/e7dfb337-3636-4749-9d2d-6c81d4ff2e3c" />
+
+- Next go to file explorer and right click on this PC. Select properties. Scroll down until you see "Domain or workgroup" and click on that.
+<img width="1021" height="787" alt="Screenshot 2026-04-09 103148" src="https://github.com/user-attachments/assets/614e79e9-0426-4bf3-9da4-575d0ed6ff08" />
+
+- From here go to the "Computer Name" tab and click on the change button.
+<img width="412" height="463" alt="Screenshot 2026-04-09 105957" src="https://github.com/user-attachments/assets/ee9a4069-d89b-41ed-8548-253be8801c77" />
+
+- Select "Domain" under the "Memeber Of" section and fill in the domain name of our server, "MyHomeLab.local".
+<img width="321" height="386" alt="Screenshot 2026-04-09 110500" src="https://github.com/user-attachments/assets/15f5dff7-4c60-4cf2-b04c-081c15689b1a" />
+
+- Now this PC is a memeber of the domain.
+<img width="305" height="145" alt="C11" src="https://github.com/user-attachments/assets/ac0c9e52-af5a-4b4c-9d27-5c34ce6ffa29" />
+
+- To verify everything is working correctly we'll log in under the user account Jane Doe that we created earlier.
+<img width="529" height="579" alt="C12" src="https://github.com/user-attachments/assets/03e71368-618f-44be-a3bc-916f509b4188" />
+
+<img width="633" height="188" alt="C13" src="https://github.com/user-attachments/assets/31577bc1-2f9a-4930-92cf-c565d6a970df" />
+
+
+- Lastly we will do a little house keeping and move our client PC to its appropriate group in Active Directory. To do this, open Active Directory select the default "Computers" group then right click on our "HomeLabPC" and select the move option.
+<img width="747" height="519" alt="C15" src="https://github.com/user-attachments/assets/bc59831c-2676-44d2-b8a6-bbfd9475a11a" />
+
+- From the "Move" screen select the "Computers" under our "USA" group and click ok.
+<img width="316" height="326" alt="C16" src="https://github.com/user-attachments/assets/e4ece07e-d862-4b8f-9950-404904e0d403" />
+
+- Now our "HomeLabPC" was moved into its correct place.
+<img width="459" height="523" alt="C18" src="https://github.com/user-attachments/assets/a0fc1513-25dc-4c2f-8dd4-7705aa4ba22a" />
+
+- We can also add a description to our computer so it's easy to tell which user it belongs to by right clicking our computer, selecting properties, and filling out the description under the "General" tab.
+<img width="459" height="523" alt="C18" src="https://github.com/user-attachments/assets/be0d8040-77fd-4353-aec9-1b7845d471c4" />
 
 
 
