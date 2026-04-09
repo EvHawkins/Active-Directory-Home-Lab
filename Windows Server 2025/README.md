@@ -46,8 +46,43 @@ Windows typically assigns the computer a long and complicated device name. This 
 
 ## Step 3: Install Active Directory
 
-- yup
-  
+- Open Server Manager and at the top right of the screen click on "Manage" followed by "Add Roles and Features"
+<img width="1422" height="800" alt="AD Setup 3" src="https://github.com/user-attachments/assets/b98c830f-c949-457c-8704-6da585f8d056" />
+
+- Review the information and make sure all steps have been completed, then click "Next"
+<img width="780" height="553" alt="AD Setup 4" src="https://github.com/user-attachments/assets/8d68ae4a-d7ab-4002-88cc-70d86bd3c5ba" />
+
+- Under Roles find "Active Directory Domain Services", select it, and the click "Add Features"
+<img width="764" height="431" alt="AD Setup 6" src="https://github.com/user-attachments/assets/41b9abdd-1ad0-4edf-a83f-3093c19971c6" />
+
+- Now the intsallation process will begin but it's very important not to close the window after the install is done
+<img width="781" height="555" alt="AD Setup 7" src="https://github.com/user-attachments/assets/e409037a-11b9-4e65-91c0-53baf69463bf" />
+
+- Once the installation is done we will promote the serve into a domain controller. This is why it is important not to close the installation wizard after the install.
+<img width="592" height="362" alt="AD Setup 8" src="https://github.com/user-attachments/assets/2c8ef466-ea5e-4a9f-887c-1809ccc84cdb" />
+
+- Click on "Add a new forest" and select a domin name for your server
+<img width="755" height="559" alt="Ad setup 9" src="https://github.com/user-attachments/assets/2ab6ca11-f154-4045-8737-f0650ba92628" />
+
+- Make sure all the information is correct and put in your password
+ <img width="755" height="557" alt="AD setup 10" src="https://github.com/user-attachments/assets/bf432245-08db-41a2-a5e5-1e268cdbeac1" />
+
+- Click through DNS options, Additional Options, and Review options. Nothing here needs to be changed, just make sure everything is correct. You will now find yourself at the prerequisite check menu. You may have to press "Previous" a few times while the check is being done. Once you see a green check mark, you're ready to click "Install"
+<img width="757" height="554" alt="AD setup 15" src="https://github.com/user-attachments/assets/f48fcaec-f019-4646-ad6f-a1aeeca8a086" />
+
+- Once the install is done you can go to Control Panel > System and Security > Windows Tools and make sure everything was installed correctly
+<img width="1118" height="584" alt="AD setup 16" src="https://github.com/user-attachments/assets/d942f5fd-32ee-483c-9716-25a7028cc514" />
+
+
+
+
+ 
+
+
+
+
+
+
   
 
 
