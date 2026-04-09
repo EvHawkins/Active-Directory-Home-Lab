@@ -1,7 +1,7 @@
 # Active Directory Services
 
 ## Objective
-- Create a windows client
+- Create a Windows 11 client
 - Join the client to the domain
 - Create Organizational Units(OU's) and users
 
