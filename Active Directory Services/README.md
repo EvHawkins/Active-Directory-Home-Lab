@@ -102,7 +102,8 @@
 <img width="316" height="326" alt="C16" src="https://github.com/user-attachments/assets/e4ece07e-d862-4b8f-9950-404904e0d403" />
 
 - Now our "HomeLabPC" was moved into its correct place.
-<img width="459" height="523" alt="C18" src="https://github.com/user-attachments/assets/a0fc1513-25dc-4c2f-8dd4-7705aa4ba22a" />
+<img width="751" height="518" alt="C17" src="https://github.com/user-attachments/assets/73d52848-be48-495f-8e76-c43b3f664f07" />
+
 
 - We can also add a description to our computer so it's easy to tell which user it belongs to by right clicking our computer, selecting properties, and filling out the description under the "General" tab.
 <img width="459" height="523" alt="C18" src="https://github.com/user-attachments/assets/be0d8040-77fd-4353-aec9-1b7845d471c4" />
