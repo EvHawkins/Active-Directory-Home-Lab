@@ -26,7 +26,7 @@
 - Open up Active Directory Users and Computers. Here we'll be able to see our domain "MyHomeLab.local" on the lefthand side.
 <img width="750" height="524" alt="A1" src="https://github.com/user-attachments/assets/1e25aa49-b603-4bb3-8ac7-19d5bd871069" />
 
-- Now we will create Organizational Units otherwise known as OU's. We'll start by right clicking out domain, selecting New, then selecting Organizational Unit.
+- Now we will create Organizational Units otherwise known as OU's. We'll start by right clicking our domain, selecting "New", then selecting "Organizational Unit".
 <img width="751" height="516" alt="A3" src="https://github.com/user-attachments/assets/fc798380-6283-4cce-8788-0bccce22bdca" />
 
 - Now we can name our OU. I'll make a "USA office" for this example.
@@ -36,7 +36,7 @@
 <img width="747" height="521" alt="A6" src="https://github.com/user-attachments/assets/8c879ede-42e0-471a-9cd4-a7cacd5f8702" />
 
 ## Step 3: Create a Domain Admin
-- We'll start by right clicking our department (in this case it will be IT), selecting new, then selecting user.
+- We'll start by right clicking our department (in this case it will be IT), selecting "New", then selecting "User".
 - The reason for making a Domain Admin is that they have the power to add new users to our domain.
 <img width="456" height="316" alt="A7" src="https://github.com/user-attachments/assets/54e18b0e-4446-4426-9bc4-29717e0249e1" />
 
@@ -74,10 +74,10 @@
 - Toggle on IPv4 and under "Preferred DNS" we are going to put in the IP address of our windows server.
 <img width="493" height="681" alt="C4" src="https://github.com/user-attachments/assets/78df0e65-4c6d-45b8-9fb9-77fd8c6e5606" />
 
-- To verify that things are working correctly we can ping our windows server from the commandpromt.
+- To verify that things are working correctly we can ping our windows server from the command promt.
 <img width="567" height="405" alt="C5" src="https://github.com/user-attachments/assets/e7dfb337-3636-4749-9d2d-6c81d4ff2e3c" />
 
-- Next go to file explorer and right click on this PC. Select properties. Scroll down until you see "Domain or workgroup" and click on that.
+- Next go to file explorer and right click on this PC. Select "Properties". Scroll down until you see "Domain or workgroup" and click on that.
 <img width="1021" height="787" alt="Screenshot 2026-04-09 103148" src="https://github.com/user-attachments/assets/614e79e9-0426-4bf3-9da4-575d0ed6ff08" />
 
 - From here go to the "Computer Name" tab and click on the change button.
